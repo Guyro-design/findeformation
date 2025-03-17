@@ -1,0 +1,106 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:aliceblue;
+    color: black;
+    padding-top: 12rem;
+}
+
+
+
+
+div img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 3%;
+    border-radius: 7px;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: aliceblue;
+}
+
+    
+
+
+.nav{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: yellow;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.nav li{
+    display: inline;
+    list-style: none;
+    
+}
+
+nav a{
+    display: inline-block;
+    margin: 0 40px;
+    font-size: 15px;
+    border: 3px solid dodgerblue;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+h1{
+    text-align: center;
+    background-color: dodgerblue;
+    font-size: 35px;
+    color: white;
+}
+
+.cont{
+     text-align: center ;
+}
+
+h2{
+    color: dodgerblue;
+}
+
+marquee{
+    color: white;
+    background-color: gray;
+}
+
+.sgr{
+    background-color: darkgrey;
+}
+
+#avp{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+
+.pied-page{
+    display: flex;
+    gap: 25px;
+    margin-left: 40px;
+}
+
+.pied-page3{
+    display: flex;
+    margin: auto;
+}
+
+#pg{
+    text-align: center;
+    width: 600px;
+}
+

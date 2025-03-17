@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faire un don</title>
+    <link rel="stylesheet" href="./faireundon.css">
+</head>
+<body>
+    <header>
+        <div classe="LOGO">
+            <img src="./Images/logo.jpeg" alt="LOGO">
+        </div>
+        <nav>
+            <ul class="nav">
+            <li><a href="./accueil.html">Accueil</a></li>
+            <li><a href="./actualité.html">Actualité</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./Aproposdenous.html">A propos de nous</a></li>
+            </ul>
+        </nav>
+        <div>
+            <h1>LE RICH'ENFANT</h1>
+        </div>
+        <marquee behavior="" direction="">Vous pouvez faire un don</marquee>
+    </header>
+    <div class="container">
+        <h1>Faites votre Don</h1>
+        <form id="contactForm">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message: précisez la nature du don</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+    <script src="./faireundon.js"></script>
+</body>
+</html>

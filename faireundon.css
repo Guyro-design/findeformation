@@ -1,0 +1,114 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:aliceblue;
+    color: black;
+    padding-top: 12rem;
+}
+
+
+
+
+div img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 3%;
+    border-radius: 7px;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: aliceblue;
+}
+
+    
+
+
+.nav{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: yellow;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.nav li{
+    display: inline;
+    list-style: none;
+    
+}
+
+nav a{
+    display: inline-block;
+    margin: 0 40px;
+    font-size: 15px;
+    border: 3px solid dodgerblue;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+h1{
+    text-align: center;
+    background-color: dodgerblue;
+    font-size: 35px;
+    color: white;
+}
+
+marquee{
+    background-color: gray;
+    color: aliceblue;
+}
+
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background:gray;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: gray;
+}
+
+
+
