@@ -80,6 +80,9 @@ marquee{
 
 .sgr{
     background-color: darkgrey;
+    position: relative;
+    padding-bottom: 0%;
+    margin-top: 10px;
 }
 
 #avp{
